@@ -68,19 +68,19 @@ HTMLActuator.prototype.addTile = function (tile) {
 
   inner.classList.add("tile-inner");
   inner.textContent = tile.value;
-  if (tile.value === 11) inner.textContent = 1 2;
-  if (tile.value === 13) inner.textContent = Ʒ;
-  if (tile.value === 14) inner.textContent = Ꜭ;
-  if (tile.value === 15) inner.textContent = ▲;
-  if (tile.value === 16) inner.textContent = ▼;
-  if (tile.value === 17) inner.textContent = ҉;
-  if (tile.value === 18) inner.textContent = 00;
-  if (tile.value === 19) inner.textContent = F;
-  if (tile.value === 20) inner.textContent = 1 1;
-  if (tile.value === 91) inner.textContent = 𝟵;
-  if (tile.value === 92) inner.textContent = 𝟿;
-  if (tile.value === 93) inner.textContent = nine;
-  if (tile.value === 94) inner.textContent = ９;
+  if (tile.value === 11) inner.textContent = "1 2";
+  if (tile.value === 13) inner.textContent = "Ʒ";
+  if (tile.value === 14) inner.textContent = "Ꜭ";
+  if (tile.value === 15) inner.textContent = "▲";
+  if (tile.value === 16) inner.textContent = "▼";
+  if (tile.value === 17) inner.textContent = "҉";
+  if (tile.value === 18) inner.textContent = "00";
+  if (tile.value === 19) inner.textContent = "F";
+  if (tile.value === 20) inner.textContent = "1 1";
+  if (tile.value === 91) inner.textContent = "𝟵";
+  if (tile.value === 92) inner.textContent = "𝟿";
+  if (tile.value === 93) inner.textContent = "nine";
+  if (tile.value === 94) inner.textContent = "９";
 
   if (tile.previousPosition) {
     // Make sure that the tile gets rendered in the previous position first
