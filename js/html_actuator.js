@@ -77,10 +77,15 @@ HTMLActuator.prototype.addTile = function (tile) {
   if (tile.value === 18) inner.textContent = "00";
   if (tile.value === 19) inner.textContent = "F";
   if (tile.value === 20) inner.textContent = "1 1";
+  if (tile.value === 22) inner.textContent = "շ";
+  if (tile.value === 25) inner.textContent = "Ƽ";
+  if (tile.value === 44) inner.textContent = "Ɥ";
   if (tile.value === 91) inner.textContent = "𝟵";
   if (tile.value === 92) inner.textContent = "𝟿";
   if (tile.value === 93) inner.textContent = "nine";
   if (tile.value === 94) inner.textContent = "９";
+  if (tile.value === 95) inner.textContent = "Ⅸ";
+  if (tile.value === 96) inner.textContent = 9;
 
   if (tile.previousPosition) {
     // Make sure that the tile gets rendered in the previous position first
